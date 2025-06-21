@@ -1,0 +1,100 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+header > img {
+    display: block;
+    height: 300px;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 10px 500px 10px 500px;
+    background-color: #cf604c;
+    border-radius: 20px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+}
+
+nav li a{
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+article{
+    flex: 1;
+    padding: 5px 50px 20px 50px;
+}
+
+
+article:hover{
+    transform: scale(102%);
+    transition: transform 0.2s ease;
+}
+
+.main{
+    background-color: #cf604c;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #EDEFEE;
+}
+
+.main p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.main p a{
+    color: #EDEFEE;
+}
+
+
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div img{
+    height: 100px;
+    width: 100px;
+}

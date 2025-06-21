@@ -1,49 +1,56 @@
 <!DOCTYPE html>
-<html lang="de"> <!--Sprache bestimmen--> 
+<html lang="en">
     <head>
-        <meta charset="UTF-8"> <!--Zeichenauswahl-->
-        <!--SEO Metadata-->
+        <meta charset="UTF-8"> 
+       
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content=""><!---- Beschreibung der Seite-->
-        <meta name="title" content=""> <!---Spezifizierung der WebPAGE-->
-        <meta name="author" content=""> <!--Ich habe entworfen, geschrieben und Kunde liefert nur Infos: mein Name. Ich habe nur Technik gemacht und Texte Bilder Struktur etc kommen von wem andere: Dessen Name--> 
-        <meta name="language" content=""> <!--Webseiten Sprache-->
+        <meta name="description" content="Welcome to Hair Day. Enjoy your stay!">
+        <meta name="title" content="Hair Day">
+        <meta name="author" content="Léon Hoffmann">
+        <meta name="language" content="en">
         <meta name="revised" content=""> <!--Tag, Monat Datum, Jahr, Zeit. Letzte größere Änderung der Webseite-->
 
-        <!--Sharing Metadata-->
-        <meta property="og:title" content="">
-        <meta property="og:description" content=""> 
-        <meta property="og:image" content=""> <!--Vorschaubild-->
+        
+        <meta property="og:title" content="Hair day">
+        <meta property="og:description" content="Welcome to Hair Day. Enjoy your stay!"> 
+        <meta property="og:image" content=""> 
         <meta property="og:url" content="">
         <meta property="og:type" content="website">
 
-        <!--css verlinken-->
+        
         <link rel="stylesheet" href="./css/styles.css">
 
-        <title>Name</title> <!--Name im Tab-->
+        <title>Hair Day</title>
     </head>
     <body>
         <header>
-            <nav> <!--Navbar mit Bsp. Reitern-->
-                <ul>
-                    <li><a href="#about">Über uns</a></li>
-                    <li><a href="#products">Produkte</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-                </ul>
-            </nav>
+            <img src="./img/logo.webP" alt="Written logo 'Hair Day'.">
         </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./diy.html">DIY</a></li>
+                <li><a href="./booking.html">Booking</a></li>
+            </ul>
+        </nav>
 
         <main>
 
-            <section id="about">
+            <section>
+                <article class="main">
+                    <h1>15% Discount On Hair Colouring</h1>
+                    <p>Ready for a fresh look? Now's the perfect time! Get a 15% discount on all hair colouring services for a limited time. Whether you want subtle highlights, a bold new shade, or a touch-up, our expert stylists are here to help.
 
+                    We use only high-quality products for vibrant, long-lasting results that keep your hair healthy. Our experienced colourists offer personalized consultations to find the perfect hue for you. From classic blondes to trendy pastels, the options are endless.
+
+                    Don't miss this chance to treat yourself to a professional hair colouring experience at an unbeatable price. Transform your hair and boost your confidence. <a href="./booking.html">Book your appointment today!</a></p>
+                </article>
             </section>
 
-            <section id="products">
+            <section>
 
-            </section>
-
-            <section id="contact">
 
             </section>
 
@@ -53,10 +60,14 @@
 
 
         <footer>
-
+            <div>
+                <img src="./img/footer_logo.webP" alt="Logo of Hair Day.">
+            </div>
+            <div>
+                <p>Copyright Hair Day</p>
+            </div>
         </footer>
 
-        <!--Einbindung JS-->
         <script src="./js/script.js"></script>
     </body>
 </html>
