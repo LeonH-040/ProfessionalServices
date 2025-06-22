@@ -18,6 +18,9 @@ h2{
     font-size: 2rem;
 }
 
+p{
+    font-size: 20px;
+}
 
 header > img {
     display: block;
@@ -58,6 +61,30 @@ section{
 article{
     flex: 1;
     padding: 5px 50px 20px 50px;
+    background-color: #cf604c;
+    border-radius: 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #EDEFEE;
+}
+
+.main{
+    background-image: url(../img/background_main.webP);
+    background-size: 100%;
+}
+
+.small{
+    justify-items: center;
+}
+
+.small img{
+    max-height: 250px;
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+.small span{
+    text-decoration: underline;
 }
 
 
@@ -66,24 +93,14 @@ article:hover{
     transition: transform 0.2s ease;
 }
 
-.main{
-    background-color: #cf604c;
-    background-size: cover;
-    border-radius: 20px;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    color: #EDEFEE;
+
+article a{
+    color: #F4B400;
 }
 
-.main p{
-    margin-top: 5px;
-    font-size: 20px;
+article a:hover{
+    color: #000000;
 }
-
-.main p a{
-    color: #EDEFEE;
-}
-
 
 
 footer{
@@ -92,6 +109,8 @@ footer{
 
 footer div{
     flex: 1;
+    justify-items: end;
+    text-decoration: overline;
 }
 
 footer div img{
