@@ -193,3 +193,54 @@ footer div img{
     margin-left: 100px;
     margin-top: 20px;
 }
+
+/* Booking-Page */
+
+form{
+    justify-items: center;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    width: auto;
+}
+
+.hour{
+    margin-right: 10px;
+}
+
+.minutes{
+    margin-left: 35px;
+}
+
+
+fieldset{
+    border: none;
+    padding: 0px;
+}
+button{
+    align-self: center;
+    margin-top: 5px;
+    background-color: #F4B400;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #F4B400;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contact{
+    margin-left: 29.5%;
+    margin-right: 29.5%;
+}
+
+.contact:hover{
+    transform: none;
+}

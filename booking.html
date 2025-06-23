@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Book your appointment now. Due to our limited space inside the Salon we have a limit amount of clients we can attend, so make an appointment in advance, please.">
+        <meta name="title" content="Book now">
+        <meta name="author" content="Léon Hoffmann">
+        <meta name="language" content="en">
+        <meta name="revised" content=""> <!--Tag, Monat Datum, Jahr, Zeit. Letzte größere Änderung der Webseite-->
+
+        
+        <meta property="og:title" content="Book now">
+        <meta property="og:description" content="Book your appointment now. Due to our limited space inside the Salon we have a limit amount of clients we can attend, so make an appointment in advance, please."> 
+        <meta property="og:image" content=""> 
+        <meta property="og:url" content="">
+        <meta property="og:type" content="website">
+
+        
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="img/logo.ico">
+
+        <title>Booking | Hair Day</title>
+    </head>
+    <body>
+        <header>
+            <img src="./img/logo.webP" alt="Written logo 'Hair Day'.">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./diy.html">DIY</a></li>
+                <li><a href="booking.html" aria-current="page">Booking</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <article class="contact">
+                    <form action="" method="POST">
+                        <h1>Book your appointment now</h1>
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" name="name" id="name" required placeholder="Name*">
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <br>
+                        <input type="email" name="email" id="email" required placeholder="example@mail.com*">
+                        <br>
+                        <label for="date">Date:</label>
+                        <br>
+                        <input type="date" id="date" name="date" required>
+                        <br>
+                        <label for="time">Choose a time:</label>
+                        <br>
+                        <select id="time" name="time">
+                            <option value="10:00">10:00</option>
+                            <option value="10:30">10:30</option>
+                            <option value="11:00">11:00</option>
+                            <option value="11:30">11:30</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:30">12:30</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:30">13:30</option>
+                            <option value="14:00">14:00</option>
+                            <option value="14:30">14:30</option>
+                            <option value="15:00">15:00</option>
+                            <option value="15:30">15:30</option>
+                            <option value="16:00">16:00</option>
+                            <option value="16:30">16:30</option>
+                            <option value="17:00">17:00</option>
+                            <option value="17:30">17:30</option>
+                        </select>
+
+                        <br>
+                        <label for="appointment">Appointment</label>
+                        <br>
+                        <fieldset id="appointment">
+                            <input type="radio" name="service" value="hair" id="hair" checked> Hair cut/Coloring
+                            <br>
+                            <input type="radio" name="service" value="nails" id="nails"> Nails
+                        </fieldset>
+
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <img src="./img/footer_logo.webP" alt="Logo of Hair Day.">
+            </div>
+            <div>
+                <p>Copyright Hair Day</p>
+            </div>
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
